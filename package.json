@@ -22,14 +22,14 @@
     "url": "https://github.com/kentaroi/eleventy-plugin-output-path/issues"
   },
   "homepage": "https://github.com/kentaroi/eleventy-plugin-output-path#readme",
-  "dependencies": {
-    "eleventy-introspector": "file:../eleventy-introspector/eleventy-introspector-1.0.2.tgz"
-  },
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0 || ^2.0.0-canary.1",
+    "@11ty/eleventy": "^1.0.0 || ^2.0.0-canary.1 || ^2.0.0-beta.1",
     "ava": "^5.1.0"
   },
   "peerDependencies": {
-    "@11ty/eleventy": "^1.0.0 ||  ^2.0.0-canary.1"
+    "@11ty/eleventy": "^1.0.0 || ^2.0.0-canary.1 || ^2.0.0-beta.1"
+  },
+  "dependencies": {
+    "eleventy-introspector": "^1.0.2"
   }
 }
