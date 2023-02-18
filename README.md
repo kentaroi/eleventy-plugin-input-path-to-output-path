@@ -20,6 +20,11 @@ module.exports = function(eleventyConfig) {
 
 This simple plugin adds a filter, `outputPath`, that converts an `inputPath` to an `outputPath`.
 
+The `outputPath` in this plugin is not a file path, but a path part of the result URL. (You must
+know Eleventy's [`page` variable](https://www.11ty.dev/docs/data-eleventy-supplied/#page-variable).
+`outputPath` in this plugin is like the `url` property of the `page` variable instead of `outputPath`
+of that.)
+
 Suppose you have the following project (`input` directory is `src` and `output` directory is `dist`):
 ```bash
 .
